@@ -6,6 +6,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -13,6 +14,7 @@ body {
   background: hsl(233, 47%, 7%);
   font-size: 15px;
 }
+
 header {
   margin: 0 auto;
   width: 375px;
@@ -40,6 +42,9 @@ header {
   border-top-left-radius: 0.7rem;
   border-top-right-radius: 0.7rem;
 }
+
+/* First Paragraph */
+
 .insights {
   margin-bottom: 1rem;
   color: hsl(0, 0%, 100%);
@@ -55,6 +60,8 @@ header {
 .insights span {
   color: hsl(277, 64%, 61%);
 }
+
+/* Main Paragraph */
 
 .main-paragraph {
   margin-bottom: -0.7rem;
@@ -72,6 +79,8 @@ header {
   margin: 0 auto;
 }
 
+/* Stats */
+
 .stats-section {
   margin: 0 auto;
   color: hsl(0, 0%, 100%);
@@ -83,14 +92,14 @@ header {
   margin-top: 1.3rem;
   margin-bottom: -0.5rem;
 }
-.stats-section span {
+.stats span {
   color: hsla(0, 0%, 100%, 0.6);
   font-family: 'Inter', sans-serif;
   text-transform: uppercase;
   font-size: 0.7rem;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   header {
     width: 80vw;
     margin: 0 auto;
@@ -109,6 +118,7 @@ header {
     align-items: center;
     gap: 0.3rem 2rem;
   }
+
   .container .header-photo {
     width: 100%;
     height: 100%;
@@ -117,12 +127,16 @@ header {
     border-bottom-right-radius: 0.7rem;
   }
 
+  /* Section moved to left from initial(right) */
+
   .section-center {
     grid-area: a;
     display: grid;
     grid-template-columns: 1fr;
     width: 500px;
   }
+
+  /* image moved to right from initial(left) */
 
   .header-photo {
     grid-area: b;
