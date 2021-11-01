@@ -15,7 +15,7 @@ body {
   font-size: 15px;
 }
 
-header {
+.main-section {
   margin: 25vh auto;
   width: 375px;
   height: 400px;
@@ -101,7 +101,7 @@ header {
 }
 
 @media screen and (min-width: 1200px) {
-  header {
+  .main-section {
     width: 80vw;
     margin: 0 auto;
     max-width: 1170px;
