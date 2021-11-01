@@ -16,8 +16,9 @@ body {
 }
 
 header {
-  margin: 0 auto;
+  margin: auto auto;
   width: 375px;
+  height: 100vh;
 }
 
 .container {
