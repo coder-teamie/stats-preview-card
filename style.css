@@ -80,7 +80,7 @@ body {
   margin-left: auto;
 }
 
-.main-paragraph h4 {
+.main-paragraph p {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 0.73rem;
   max-width: 210px;
@@ -173,7 +173,7 @@ body {
     margin-bottom: 1.7rem;
   }
 
-  .main-paragraph h4 {
+  .main-paragraph p {
     max-width: 18.75rem;
     text-align: left;
     font-size: 0.78rem;
