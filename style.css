@@ -97,7 +97,7 @@ body {
   color: hsl(0, 0%, 100%);
   padding: 2rem 2rem;
 }
-.stats h5 {
+.stats h2 {
   color: hsl(0, 0%, 100%);
   font-size: 1.5rem;
   margin-top: 1.3rem;
@@ -190,10 +190,11 @@ body {
     text-align: left;
     letter-spacing: 3;
   }
-  .stats h5 {
+  .stats h2 {
     margin-bottom: -0.5rem;
   }
   .stats-sub {
+    margin-top: 0.1rem;
     letter-spacing: 0.1rem;
   }
 }
