@@ -16,22 +16,24 @@ body {
 }
 
 .main-section {
-  /* margin: 25vh auto; */
-  /* width: 23.4375rem; */
-  /* height: 35rem; */
+  margin: 10.5rem auto;
+  width: 23.4375rem;
+  height: 35rem;
 }
 
 .container {
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   background: hsl(244, 38%, 16%);
   border-radius: 0.7rem;
-  margin: 12vh auto 0.5rem auto;
+  margin: 5rem auto 0.5rem auto;
+  height: 50rem;
 }
 
 .section-center {
-  height: 18rem;
-  margin-top: 5rem;
+  height: 15rem;
+  margin-top: 0rem;
 }
 
 .container .header-photo {
@@ -44,7 +46,7 @@ body {
   height: 270px;
   display: block;
   object-fit: cover;
-  margin: 0 0 2rem 0;
+  margin: 0;
   border-top-left-radius: 0.7rem;
   border-top-right-radius: 0.7rem;
 }
@@ -53,7 +55,7 @@ body {
 
 .insights {
   color: hsl(0, 0%, 100%);
-  margin-top: -1.7rem;
+  margin-top: -11.7rem;
   margin-bottom: 1rem;
   margin-right: auto;
   margin-left: auto;
@@ -107,10 +109,17 @@ body {
 }
 
 @media screen and (min-width: 75rem) {
+  .section-center {
+    height: 5rem;
+    margin-top: -8rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .main-section {
+    margin: 25vh auto;
     width: 80vw;
-    margin: 0 auto;
-    max-width: 73.125rem;
+    height: 35rem;
   }
 
   .container {
@@ -124,12 +133,14 @@ body {
       'a b';
     align-items: center;
     gap: 0.3rem 2rem;
+    margin: 10vh auto 0.5rem auto;
+    height: 30rem;
   }
 
   .container .header-photo {
     width: 100%;
     height: 100%;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     border-top-left-radius: 0;
     border-bottom-right-radius: 0.7rem;
   }
@@ -147,6 +158,9 @@ body {
 
   .header-photo {
     grid-area: b;
+  }
+  .insights {
+    margin-top: -1.7rem;
   }
 
   .insights h3 {
