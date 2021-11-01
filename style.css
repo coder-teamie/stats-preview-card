@@ -16,9 +16,9 @@ body {
 }
 
 .main-section {
-  margin: 25vh auto;
-  width: 23.4375rem;
-  height: 25rem;
+  /* margin: 25vh auto; */
+  /* width: 23.4375rem; */
+  /* height: 35rem; */
 }
 
 .container {
@@ -26,7 +26,12 @@ body {
   grid-template-columns: 1fr;
   background: hsl(244, 38%, 16%);
   border-radius: 0.7rem;
-  margin: 5rem 0.3rem;
+  margin: 12vh auto 0.5rem auto;
+}
+
+.section-center {
+  height: 18rem;
+  margin-top: 5rem;
 }
 
 .container .header-photo {
@@ -47,8 +52,9 @@ body {
 /* First Paragraph */
 
 .insights {
-  margin-bottom: 1rem;
   color: hsl(0, 0%, 100%);
+  margin-top: -1.7rem;
+  margin-bottom: 1rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -179,7 +185,9 @@ body {
   font-size: 11px;
   text-align: center;
   color: #fff;
+  font-weight: 600;
 }
 .attribution a {
-  color: #fff;
+  color: hsl(277, 64%, 61%);
+  font-weight: 700;
 }
