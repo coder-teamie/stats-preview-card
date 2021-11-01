@@ -27,7 +27,7 @@ body {
   grid-template-rows: 300px 1fr;
   background: hsl(244, 38%, 16%);
   border-radius: 0.7rem;
-  margin: 5rem auto 0.5rem auto;
+  margin: 1rem auto;
   height: 50rem;
   width: 300px;
 }
