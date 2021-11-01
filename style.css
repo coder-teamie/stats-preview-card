@@ -12,13 +12,13 @@ body {
   font-family: 'Inter', sans-serif;
   line-height: 1.5;
   background: hsl(233, 47%, 7%);
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .main-section {
   margin: 25vh auto;
-  width: 375px;
-  height: 400px;
+  width: 23.4375rem;
+  height: 25rem;
 }
 
 .container {
@@ -26,7 +26,7 @@ body {
   grid-template-columns: 1fr;
   background: hsl(244, 38%, 16%);
   border-radius: 0.7rem;
-  margin: 5rem 2rem;
+  margin: 5rem 0.3rem;
 }
 
 .container .header-photo {
@@ -55,7 +55,7 @@ body {
 .insights h3 {
   font-size: 1.5rem;
   line-height: 1;
-  max-width: 250px;
+  max-width: 15.625rem;
   margin: 0 auto;
 }
 .insights span {
@@ -100,16 +100,16 @@ body {
   font-size: 0.7rem;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 75rem) {
   .main-section {
     width: 80vw;
     margin: 0 auto;
-    max-width: 1170px;
+    max-width: 73.125rem;
   }
 
   .container {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 400px;
+    grid-template-rows: 25rem;
 
     /* Switching page content from left to right*/
 
@@ -134,7 +134,7 @@ body {
     grid-area: a;
     display: grid;
     grid-template-columns: 1fr;
-    width: 500px;
+    width: 31.25rem;
   }
 
   /* image moved to right from initial(left) */
@@ -144,14 +144,14 @@ body {
   }
 
   .insights h3 {
-    max-width: 300px;
+    max-width: 18.75rem;
     text-align: left;
     font-size: 1.78rem;
     margin-bottom: 1.7rem;
   }
 
   .main-paragraph h4 {
-    max-width: 300px;
+    max-width: 18.75rem;
     text-align: left;
     font-size: 0.78rem;
   }
@@ -173,4 +173,13 @@ body {
   .stats-sub {
     letter-spacing: 0.1rem;
   }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+}
+.attribution a {
+  color: #fff;
 }
